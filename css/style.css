@@ -356,6 +356,10 @@ color: #6d6d6d;
 
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px){
+  body {
+    font-family: "Raleway", sans-serif;
+    overflow-x: hidden;
+  }
   .navbar{
     text-align: center;
     width: 100%;
@@ -378,6 +382,10 @@ color: #6d6d6d;
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px){
+  body {
+    font-family: "Raleway", sans-serif;
+    overflow-x: hidden;
+  }
   .navbar{
     text-align: center;
     width: 100%;
@@ -400,6 +408,10 @@ color: #6d6d6d;
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
+  body {
+    font-family: "Raleway", sans-serif;
+    overflow-x: hidden;
+  }
   .navbar{
     text-align: center;
     width: 100%;
